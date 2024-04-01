@@ -1,0 +1,63 @@
+
+body{
+    background-image: url('cod.avif');
+    background-color: red;
+}
+header nav li {
+    display: flex;
+    display: inline;
+    padding: 10px;
+    
+}
+header nav li .a {
+    text-decoration: none;
+    color: black;   
+    font-size: 30px;
+}
+.logo {
+   left: 50%;
+}
+nav {
+    background: transparent;
+    width: 80%;
+    display: flex;
+    justify-content: space-between; /* Alterado para distribuir espaço entre os elementos */
+    align-items: center;
+    margin: -10;
+    
+}
+.tituloprincipal{
+    margin: 10px;
+    padding-top: 90px;
+    margin-left: 30px;
+}
+.textop{
+    font-size: 25px;
+    margin-left: 30px;
+    
+}
+.b .a1 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.b {
+    color: black;
+    border-radius: 5px 5px 5px;
+    font-size: 25px;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 30px;
+}
+.b:hover {
+    
+    background-color: black;
+   
+    box-shadow: 5px 5px 5px white;
+}
+.b .a1:hover {
+    color: white;
+}
+
+li:hover {
+    transform: rotateY(60deg); /* Rotaciona o item da lista quando o cursor passa por cima */
+}
